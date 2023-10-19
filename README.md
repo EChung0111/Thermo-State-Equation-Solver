@@ -14,3 +14,8 @@ This is an open source tool owned and maintained by Eugene Chung
    MacOS and Linux:
    python path/to/file/Solver.py
 
+# Usage
+1. Choose the equation of state you want to work with by typing in on of the options whown in the menu (currently 1, 2, or 3)
+2. Chose the variable you want to solve for (Input mest be in uppercase)
+3. Enter the values for the other variables in the quations.
+4. Output value will be printed at the bottom on the terminal
