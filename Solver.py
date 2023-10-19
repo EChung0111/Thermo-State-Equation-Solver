@@ -106,9 +106,9 @@ elif State_Eq == "3":
     
     if varsolv != 'P':
         vars()[varsolv] = sympy.symbols(varsolv)
-        exp = (R*T)/(V-B)-A/(sqrt(T)*V*(V+B))-P
+        exp = (R*T)/(V-B)-A/(math.sqrt(T)*V*(V+B))-P
         sol = sympy.solve(exp)
         print(f"{varsolv} = {sol[0]}")
     else:
-        P = (R*T)/(V-B)-A/(sqrt(T)*V*(V+B))
+        P = (R*T)/(V-B)-A/(math.sqrt(T)*V*(V+B))
         print(f"P = {P}")
