@@ -19,3 +19,4 @@ This is an open source tool owned and maintained by Eugene Chung
 2. Chose the variable you want to solve for (Input mest be in uppercase)
 3. Enter the values for the other variables in the quations.
 4. Output value will be printed at the bottom on the terminal
+   Just as a side note Volume is in L/mol (Molar Volume)
